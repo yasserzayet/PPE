@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html { overflow-y: hidden; }
+
+
+a {
+  text-decoration: none;
+}
+
+.s1 {
+  background: #e4f9f5;
+}
+
+.section h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate( -50% , -20% );
+  background: linear-gradient(to left, #010038, #11999e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s2{
+  background: #f4efd3;
+}
+
+
+.s3 {
+  background: #e3e7f1;
+}
+
+box {
+  background: linear-gradient(to left, #11999e, #11999e);
+}
+
+
+active {
+        color: #fff !important;
+        text-decoration: underline !important;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); // hardware acceleration of CSS animation
+}
